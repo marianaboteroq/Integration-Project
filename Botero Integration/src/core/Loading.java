@@ -1,3 +1,4 @@
+// @author Mariana Botero
 package core;
 
 import java.util.Random;

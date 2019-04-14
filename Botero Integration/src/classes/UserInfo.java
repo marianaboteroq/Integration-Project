@@ -1,15 +1,29 @@
+// @author Mariana Botero
+
 package classes;
 
 import java.util.Scanner;
 
 public class UserInfo {
-
-  private static String userName;
+  
+  private String happinessLevel;
+  
+  public void setHappinessLevel() {
+    Scanner scan = new Scanner(System.in);
+    String happinessLevel  = scan.nextLine();
+    this.happinessLevel = happinessLevel;
+   }
+  
+  public String getHappinessLevel() {
+    return happinessLevel;
+   }
+  
+ private static String userName;
 
   public void setUserName() {
-    Scanner scan = new Scanner(System.in);
-    String name = scan.nextLine();
-    userName = name;
+    Scanner scan1 = new Scanner(System.in);
+    String usersName = scan1.nextLine();
+    usersName = userName;
   }
 
   public String getUserName() {
@@ -22,6 +36,7 @@ public class UserInfo {
     Scanner scan2 = new Scanner(System.in);
     String bookType = scan2.nextLine();
     favBookType = bookType;
+
   }
 
   public String getFavBookType() {

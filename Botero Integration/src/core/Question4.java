@@ -1,3 +1,4 @@
+// @author Mariana Botero
 package core;
 
 public class Question4 {
@@ -12,8 +13,10 @@ public class Question4 {
     boolean userAgreement = true;
 
     int sum = 19;
-    while (sum < 20) { /* this loop will only repeat one time, because of its condition and update
-                        *  expression */
+    while (sum < 20) { /*
+                        * this loop will only repeat one time, because of its condition and update
+                        * expression
+                        */
       System.out.println("Fourth " + QA
           + ": Pick one philosophy in which you agree with the most. Remember"
           + " to write down the numerical value of the one you think is true (shown beside it).");

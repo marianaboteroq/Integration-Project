@@ -1,16 +1,18 @@
+// @author Mariana Botero
+
 package core;
 
 public class Calculation {
 
   public static void calculateTotal() {
 
-    double theAlchemistMin = 502;
-    double slaughterHouse5Min = 1002;
-    double prideAndPrejudiceMin = 12;
+    double theAlchemistMin = 587;
+    double slaughterHouse5Min = 1087;
+    double prideAndPrejudiceMin = 97;
 
-    double theAlchemistMax = 626;
-    double slaughterHouse5Max = 1126;
-    double prideAndPrejudiceMax = 138;
+    double theAlchemistMax = 736;
+    double slaughterHouse5Max = 1236;
+    double prideAndPrejudiceMax = 236;
 
     for (int i = 0; i <= 0; i++) { // will only allow for one iteration of the loop
 
