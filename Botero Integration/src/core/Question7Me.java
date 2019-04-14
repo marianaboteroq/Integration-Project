@@ -22,14 +22,14 @@ public class Question7Me {
       if (smallest == myPageNumbers[x])
         System.out.println("The shortest book I've read was The Time Machine by H.G Wells, and "
             + "according to the table of book pages,\nposition " + (x + 1) + " it was " + smallest
-            + " pages long.");
+            + " pages long.\n");
 
 
     for (int y = 0; y < myPageNumbers.length; y++)
       if (largest == myPageNumbers[y])
         System.out.println("The longest book I've read was 11/22/63 by Stephen King, and "
             + "according to the table of book pages,\nposition " + (y + 1) + " it was " + largest
-            + " pages long.");
+            + " pages long.\n");
   }
 }
 

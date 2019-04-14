@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Question8 {
   public static void askingFavNum() {
     System.out.println("Don't give up on me quite yet! This is the last question.\nQuestion 8: "
-        + "Don't think about it too hard. What's the best number you see here? If you can't"
+        + "Don't think about it too hard. What's the best number you see here?\nIf you can't "
         + "pick enter your lucky number.");
 
     ArrayList<Integer> favNum = new ArrayList<Integer>();
@@ -34,6 +34,7 @@ public class Question8 {
       try {
         int userFavNum = scan.nextInt();
         System.out.println("You entered " + userFavNum + " jot down 50 points.");
+        System.out.println("Enter 'continue' ");
       } catch (InputMismatchException e) {
         System.out.println("You may only enter integers.");
       }

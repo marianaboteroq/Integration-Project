@@ -23,11 +23,11 @@ public class Question6 {
     for (int counter = 0; counter < shortPageNumbers.length; counter++) {
       sumShort += shortPageNumbers[counter];
     }
-    System.out.println("Sixth question. How long of a book do you see yourself reading?");
+    System.out.println("\nSixth question. How long of a book do you see yourself reading?");
     System.out.println(sumLong + " pages, " + sumMedium + " pages, or " + sumShort + " pages?");
-    System.out.println("/n Now follow the chart to record your points accordingly.");
+    System.out.println("\nNow follow the chart to record your points accordingly.\n");
     System.out.println("If you picked 361 jot down 20 points, if you picked 151, jot down 10 points"
-        + ", and if you picked 86, jot down 5 points.");
+        + ", and if you picked 86,\njot down 5 points.\n");
   }
 
 }
