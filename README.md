@@ -1,8 +1,3 @@
-# Integration-Project
-<<<<<<< HEAD
-
-Add your name as a comment at top of every file - (what class and method it is in)
-=======
 PSI 1
 Add your name as a comment at top of every file
 Add a description of the program as a comment at top
@@ -17,8 +12,6 @@ Define (in English) the term "scope" as it relates to computer programming in a 
 Use final with a variable and describe what it means in a comment
 Use casting and describe what it means in a comment
 Format strings using escape sequences
-<<<<<<< HEAD
-=======
 
 PSI 2
 Create a method with arguments and return values
@@ -39,4 +32,19 @@ Create and use for loops
 Create and use do/while loops
 Use break in a loop with a comment describing what it does
 Use continue in a loop with a comment describing what it does
->>>>>>> d506149085e653c5596ef65de802553481fd3613
+
+PSI 3
+Make a class in a separate file with private fields, public getters and setters, a constructor with and without parameters
+Overload a method
+Describe inheritance and its benefits
+Develop code that makes use of polymorphism
+Use super and this to access objects and constructors
+Declare, instantiate, initialize and use a one-dimensional array
+Manually find the smallest value in an array
+Get a sum of the values in an array using an accumulator.
+Search an array and identify the index where a value was found.
+Create and use the enhanced for loop
+Declare, instantiate, initialize and use multi-dimensional arrays
+Declare and use an ArrayList of a given type
+Search a two-dimensional array and identify the coordinates where a value was found
+Effectively utilize exception handling for user input of an int
