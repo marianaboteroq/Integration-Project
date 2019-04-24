@@ -1,5 +1,6 @@
-// @author Mariana Botero
 package core;
+
+// @author MarianaBotero
 
 public class Progress {
   public static int PercentDone(int a, int b) {

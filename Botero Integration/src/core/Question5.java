@@ -1,12 +1,13 @@
-// @author Mariana Botero
 package core;
 
 import classes.Question;
+
 import classes.UserInfo;
 
+// @author MarianaBotero
 
 public class Question5 extends UserInfo implements Question {
-  final static String QA = "Question";
+  static final String QA = "Question";
 
   @Override
   public String askQuestion() {

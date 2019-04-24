@@ -1,7 +1,8 @@
-// @author Mariana Botero
 package core;
 
 import classes.Question;
+
+// @author MarianaBotero
 
 public class Main {
   /*
@@ -50,6 +51,10 @@ public class Main {
    * is the name of the method) (String [] args) is the parameter (and can be defined arbitrarily)
    */
 
+  /**
+   * @param args is an array of String objects. The main method runs program by calling other
+   *        methods to ask questions chronologically.
+   */
   public static void main(String[] args) {
 
     // Usage of polymorphism, inheritance, and sets/gets.

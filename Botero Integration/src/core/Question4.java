@@ -1,10 +1,14 @@
-// @author Mariana Botero
 package core;
+
+// @author MarianaBotero
 
 public class Question4 {
 
-  final static String QA = "Question";
+  static final String QA = "Question";
 
+  /**
+   * This method is the fourth question which asks the user which quote they agree with the most.
+   */
   public static void askingQuote() {
 
     double theAlchemist = 500;

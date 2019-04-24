@@ -1,9 +1,14 @@
-// @author Mariana Botero
 package core;
 
 import java.util.Random;
 
+// @author MarianaBotero
+
 public class Loading {
+  /**
+   * This method randomly generates seconds between 0 and 15 for the "loading" part of the program
+   * right before it presents all the range values of points.
+   */
   public static void loading() {
     Random seconds = new Random();
     int numOfSec = seconds.nextInt(15);

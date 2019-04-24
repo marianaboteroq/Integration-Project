@@ -1,10 +1,14 @@
-// @author Mariana Botero
 package core;
 
 import classes.UserInfo;
 
+// @author MarianaBotero
+
 public class Question1 {
 
+  /**
+   * This method is the first question that prompts the user to enter their name (uses gets/sets).
+   */
   public static void askingName() {
     System.out.println("I want to get to know you first. What's your name?");
 

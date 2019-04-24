@@ -1,13 +1,18 @@
-// @author Mariana Botero
 package core;
+
+// @author MarianaBotero
 
 public class Question6 {
 
 
+  /**
+   * This method is the sixth question which asks the user the length preference of books
+   * (in pages).
+   */
   public static void askingPageNums() {
-    int longPageNumbers[] = {100, 20, 86, 90, 65};
-    int mediumPageNumbers[] = {5, 16, 50, 30, 50};
-    int shortPageNumbers[] = {5, 10, 30, 21, 20};
+    int[] longPageNumbers = {100, 20, 86, 90, 65};
+    int[] mediumPageNumbers = {5, 16, 50, 30, 50};
+    int[] shortPageNumbers = {5, 10, 30, 21, 20};
 
     int sumLong = 0;
     int sumMedium = 0;

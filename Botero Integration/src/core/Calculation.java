@@ -1,9 +1,13 @@
-// @author Mariana Botero
-
 package core;
+
+// @author MarianaBotero
 
 public class Calculation {
 
+  /**
+   * This method calculates the range of points a user accumulates to decide what book they should 
+   * read based off of their decisions.
+   */
   public static void calculateTotal() {
 
     double theAlchemistMin = 587;

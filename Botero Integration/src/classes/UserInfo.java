@@ -1,40 +1,50 @@
-// @author Mariana Botero
-
 package classes;
 
 import java.util.Scanner;
 
+// @author MarianaBotero
+
 public class UserInfo {
-  
+
   private String happinessLevel;
-  
+  Scanner scan = new Scanner(System.in);
+
+  /**
+   * This method is called to scan a user's input and set their input equal to their happiness 
+   * level.
+   */
   public void setHappinessLevel() {
-    Scanner scan = new Scanner(System.in);
-    String happinessLevel  = scan.nextLine();
+    String happinessLevel = scan.nextLine();
     this.happinessLevel = happinessLevel;
-   }
-  
+  }
+
   public String getHappinessLevel() {
     return happinessLevel;
-   }
-  
- private static String userName;
+  }
 
+  private String userName;
+  
+  /**
+   * This method is called to scan a user's input and set their name based off that input.
+   */
   public void setUserName() {
-    Scanner scan1 = new Scanner(System.in);
-    String usersName = scan1.nextLine();
-    usersName = userName;
+    String usersName = scan.nextLine();
+    userName = usersName;
   }
 
   public String getUserName() {
     return userName;
   }
 
-  private static String favBookType;
+  private String favBookType;
 
+  
+  /**
+   * This method is called to scan a user's input and set their input equal to their favorite book 
+   * type.
+   */
   public void setFavBookType() {
-    Scanner scan2 = new Scanner(System.in);
-    String bookType = scan2.nextLine();
+    String bookType = scan.nextLine();
     favBookType = bookType;
 
   }
@@ -43,12 +53,14 @@ public class UserInfo {
     return favBookType;
   }
 
+  private String favBookGenre;
 
-  private static String favBookGenre;
-
+  /**
+   * This method is called to scan a user's input and set their input equal to their favorite book 
+   * genre.
+   */
   public void setFavBookGenre() {
-    Scanner scan3 = new Scanner(System.in);
-    String bookGenre = scan3.nextLine();
+    String bookGenre = scan.nextLine();
     favBookGenre = bookGenre;
   }
 

@@ -1,10 +1,15 @@
-// @author Mariana Botero
 package core;
 
 import classes.UserInfo;
 
+// @author MarianaBotero
+
 public class Question3 {
 
+  /**
+   * This method is the third question which asks the user their favorite type of book genre. Info
+   * is obtained using gets/sets and a scanner.
+   */
   public static void askingGenre() {
 
     final String QA = "Question"; // final variables cannot be changed
@@ -21,7 +26,7 @@ public class Question3 {
      * https://stackoverflow.com/questions/767372/string-equals-versus
      */
     boolean fiction = newBookType.equalsIgnoreCase(typeOne);
-    boolean nFiction = newBookType.equalsIgnoreCase(typeTwo);
+    final boolean nFiction = newBookType.equalsIgnoreCase(typeTwo);
 
     System.out.printf("\nThird %s\n", QA); // Stating that this is the third question
 
